@@ -3,9 +3,37 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{19F8B8A5-5C96-466E-9976-B077FE9A5526}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{74636494-BA88-4026-9A1F-0EC12316871A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution items", "solution items", "{989D21AC-843D-4CC0-BCF5-A6871D7120CC}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{D6BCE9C7-6B13-40E3-B1F6-BCCEC83F5407}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Candor", "src\core\Candor\Candor.csproj", "{509FB075-1E4E-4FAC-BECC-E566EABA7DA6}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{509FB075-1E4E-4FAC-BECC-E566EABA7DA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{509FB075-1E4E-4FAC-BECC-E566EABA7DA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{509FB075-1E4E-4FAC-BECC-E566EABA7DA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{509FB075-1E4E-4FAC-BECC-E566EABA7DA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D6BCE9C7-6B13-40E3-B1F6-BCCEC83F5407} = {19F8B8A5-5C96-466E-9976-B077FE9A5526}
+		{509FB075-1E4E-4FAC-BECC-E566EABA7DA6} = {D6BCE9C7-6B13-40E3-B1F6-BCCEC83F5407}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {991C7E97-F75F-4BDD-906F-067649D91B30}
