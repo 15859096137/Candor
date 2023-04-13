@@ -1,9 +1,12 @@
+
+using Candor.Model;
+using Furion;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Candor.Samples.WebAPI.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("Api/[controller]")]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
@@ -18,7 +21,23 @@ namespace Candor.Samples.WebAPI.Controllers
             _logger = logger;
         }
 
-        [HttpGet(Name = "GetWeatherForecast")]
+        [HttpGet("Test1")]
+        public string Test1()
+        {
+            throw new Exception("999999999999");    
+            return "111111111";
+        }
+
+        [HttpGet("Test2")]
+        public string Test2()
+        {
+            return "2222222222222";
+        }
+
+
+
+
+        [HttpGet("GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
