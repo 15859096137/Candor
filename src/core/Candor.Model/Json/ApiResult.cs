@@ -26,6 +26,7 @@ namespace Candor.Model
 
         public ApiResult()
         {
+            //111
             Message = string.Empty;
             ServerTime = DateTime.Now;
             //ServerTime = DateTimeOffset.Now.ToUnixTimeSeconds(); //时间戳
