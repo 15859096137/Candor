@@ -37,9 +37,9 @@ Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "Candor.webtsvue", "src\web\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Candor.WebAspNet", "src\web\Candor.WebAspNet\Candor.WebAspNet.csproj", "{F337BDC7-978D-40CB-AC16-6C8FC0228F3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Candor.Exceptions", "src\core\Candor.Exceptions\Candor.Exceptions.csproj", "{11D5AA38-8F24-42B7-B37A-E2D83DBEE46D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Candor.Exceptions", "src\core\Candor.Exceptions\Candor.Exceptions.csproj", "{11D5AA38-8F24-42B7-B37A-E2D83DBEE46D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Candor.Models", "src\core\Candor.Models\Candor.Models.csproj", "{6C1DC006-1DF9-4FB8-B4D1-BAAB5FA96AED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Candor.Models", "src\core\Candor.Models\Candor.Models.csproj", "{6C1DC006-1DF9-4FB8-B4D1-BAAB5FA96AED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
