@@ -24,7 +24,7 @@ namespace Candor.Samples.WebAPI.Controllers
         [HttpGet("Test1")]
         public string Test1()
         {
-            throw new Exception("999999999999");    
+            throw new Exception("9999999999991");    
             return "111111111";
         }
 
